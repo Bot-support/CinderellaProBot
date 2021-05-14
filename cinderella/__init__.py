@@ -79,8 +79,8 @@ if ENV:
     LYDIA_API = os.environ.get('LYDIA_API',None)
     API_WEATHER  = os.environ.get('API_OPENWEATHER',None)
     SW_API = os.environ.get('SW_API', None)
-    TELETHON_ID = int(os.environ.get("TL_APP_ID", 5786603))
-    TELETHON_HASH = os.environ.get("TL_HASH", a1354f206a4a05109d0fc916c0f150d0)
+    TELETHON_ID = int(os.environ.get("API_ID", 5786603))
+    TELETHON_HASH = os.environ.get("API_HASH", a1354f206a4a05109d0fc916c0f150d0)
     
 else:
     from cinderella.config import Development as Config
